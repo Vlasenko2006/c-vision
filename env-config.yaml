@@ -1,0 +1,18 @@
+name: unet-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.1
+  - matplotlib
+  - numpy
+  - tqdm
+  - requests
+  - pip
+  - pip:
+      - jupyter
+      - ipykernel
